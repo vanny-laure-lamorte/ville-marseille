@@ -10,9 +10,8 @@ body {
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 50px;
 }
-
 
 .section1 {
     display: flex;
@@ -25,9 +24,14 @@ h2 {
     display: flex;
     justify-content: center;
     background-color: #e4e4e4;
-    height: 180px;
-    width: 250px;
+    height: 258px;
+    width: 386px;
     padding: 10px;
+    object-fit: cover;
+}
+
+.section-a:hover {   
+    background-color: #ffb700;
 }
 
 .section-b {
@@ -38,6 +42,12 @@ h2 {
     padding: 10px;  
 }
 
+p {
+    color: #bdbdbd;
+    font-size: 12px;
+    margin: 30px 20px 40px 20px;
+}
+
 .p1 {
     font-size: 16px;
     color: black;
@@ -46,7 +56,7 @@ h2 {
 }
 
 .p2 {
-    font-size: 26px;
+    font-size: 22px;
     color: black;
     font-weight: 400;
     margin: 0;
@@ -59,10 +69,10 @@ h2 {
 }
 
 .img-musée {
-    width: 80%;
+    height: 257px;
+    width: 376px;
 }
 
 .img-musée:hover {
-    width: 80%;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
