@@ -1,0 +1,68 @@
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+body {
+        font-family: 'Sen', sans-serif;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+
+.section1 {
+    display: flex;
+    flex-direction: column; 
+    margin: 10px;  
+    border: 1px solid #e4e4e4;
+}
+
+.section-a {
+    display: flex;
+    justify-content: center;
+    background-color: #e4e4e4;
+    height: 180px;
+    width: 250px;
+    padding: 10px;
+}
+
+.section-b {
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    width: 250px;
+    padding: 10px;  
+}
+
+.p1 {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.p2 {
+    font-size: 26px;
+    color: black;
+    font-weight: 400;
+    margin: 0;
+}
+
+.p3 {
+    font-size: 16px;
+    color: #bdbdbd;
+    font-weight: 400;
+}
+
+.img-musée {
+    width: 80%;
+}
+
+.img-musée:hover {
+    width: 80%;
+    transform: scale(1.1);
+}
