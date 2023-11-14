@@ -127,12 +127,6 @@ header {
 
 /**/
 
-.normal-btn:hover,
-.dropbtn:hover,
-.dropdown-content a:hover {
-    background-color: #0044ff73;
-    color: #fff;
-}
 
 /*--menu deroulant--*/
 .dropdown {
