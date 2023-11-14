@@ -1,0 +1,76 @@
+
+fieldset {
+    border: 2px solid #003b95;
+    text-align: center;
+}
+
+.form-titre {
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #003b95;
+}
+
+.formulaire {
+    color: #003b95;
+    font-weight: 800;
+    font-family: 'Sen', sans-serif;;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.input-form, textarea{  
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+   border: none;
+}
+
+.text-form {
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+    padding:  0 2px 2px 2px;
+}
+
+.message {
+    width: 50%;
+    height: 100px;
+    margin-left: 25%;
+    padding:  0 0 4px 2px;
+   
+}
+
+.conditions {
+    font-size: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+
+}
+
+.envoyer {
+    color: #003b95;
+    font-size: 12px;
+    border: solid 2px #003b95;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    width: 15%;
+    height: 7%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 62%;
+    margin-bottom: 5%;
+}
+
+.envoyer:hover {
+    background: #ffb700;
+}
+
+.envoyer:active {
+    background: white;
+}
