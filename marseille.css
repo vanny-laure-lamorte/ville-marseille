@@ -1,10 +1,10 @@
-
-
 /* ---------------------------vanny----------------------*/
 /* Header*/
 
 body {
     font-family: 'Sen', sans-serif;
+    margin: 0;
+
 }
 
 header {
@@ -38,7 +38,8 @@ header {
     background: rgb(166, 166, 201);
 }
 
-.nav-liens, .bouton {
+.nav-liens,
+.bouton {
     color: #003b95;
     text-decoration: none;
     padding: 10px;
@@ -64,10 +65,13 @@ header {
 .img-maps {
     background-image: url(images/marseille-main1.png);
 }
+
 /*---------------Menu nav Lucas--------------*/
 .menu {
     display: flex;
     justify-content: center;
+    background-color: white;
+    margin: 0 0 20px;
 }
 
 
@@ -84,13 +88,17 @@ header {
     color: black;
     width: 150px;
     height: 45px;
+    margin: -15px 0 0;
 }
 
 
 .dropdown-content img,
-.dropbtn img,
-.normal-btn img {
+.dropbtn img{
     width: 30px;
+    margin-right: 10px;
+}
+.normal-btn img {
+    width: 80px;
     margin-right: 10px;
 }
 
@@ -114,8 +122,9 @@ header {
 }
 
 .dropdown-content img {
-    display:block !important;
+    display: block !important;
 }
+
 /**/
 
 .normal-btn:hover,
@@ -149,6 +158,7 @@ header {
     color: #333;
 
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -157,33 +167,34 @@ header {
     display: none;
 }
 
-/* Main - sidebar */
+/*-------- Main - sidebar ---------- */
 
 .article3 {
     display: flex;
 }
 
-.section-main1 {    
+.section-main1 {
     width: 30%;
-    margin-right: 10px;
-   
+    margin: 0 10px 0;
 }
 
-.section-main1a, .section-main1b, .section-main1c, .section-main1d {
+.section-main1a,
+.section-main1b,
+.section-main1c,
+.section-main1d {
     border: 1px solid grey;
     margin: 10px 0;
 }
 
+
 .section-main1a {
     border: 1px solid grey;
-    margin: 0 10px 10px 0;
-    
-    border-radius: 10px;  
+    border-radius: 10px;
 }
 
 .sidebar-ul {
     list-style: none;
-    margin: 0;    
+    margin: 0;
     padding: 0;
 }
 
@@ -204,8 +215,7 @@ header {
 
 .section-maps {
     border: 1px solid grey;
-    margin: 0 10px 10px 0;
-    padding: 060px;
+    padding: 60px;
     border-radius: 10px;
     background-image: url(images/marseille-main4.png);
     background-size: 100%;
@@ -217,22 +227,22 @@ header {
 }
 
 .img-office {
-  width: 120px;
-  margin-right: 0; 
-  border: 1px solid red;
+    display: flex;
+justify-content: center;}
+
+.img-office img {
+    width: 120px;
 
 }
 
 
 /* Main - Principal*/
-hhhhhhhhhh
-
 .section-main2 {
     border: 1px solid grey;
     width: 70%;
     padding: 15px;
-} 
-   
+}
+
 .mains-liens-mars {
     text-decoration: none;
     color: white;
@@ -244,7 +254,7 @@ hhhhhhhhhh
 .mains-liens-mars:hover {
     text-decoration: none;
     color: rgb(230, 224, 224);
-   
+
 }
 
 
