@@ -1,4 +1,269 @@
+/*------ Header-------*/
 
+body {
+    font-family: 'Sen', sans-serif;
+    margin: 0;
+
+}
+
+header {
+    background-color: #003b95;
+}
+
+.article1 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.section-nav1 {
+    display: flex;
+}
+
+.nav-ul1 {
+    display: flex;
+    list-style: none;
+}
+
+.nav-li1 {
+    margin: 10px;
+}
+
+.nav-bouton {
+    background: white;
+}
+
+.nav-bouton:hover {
+    background: rgb(166, 166, 201);
+}
+
+.nav-liens,
+.bouton {
+    color: #003b95;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: 600;
+}
+
+.nav-ul2 {
+    display: flex;
+    list-style: none;
+}
+
+.nav-img-question {
+    width: 35px;
+}
+
+.nav-img-bateau {
+    width: 250px;
+    display: flex;
+    margin: auto;
+}
+
+.img-maps {
+    background-image: url(images/marseille-main1.png);
+}
+
+/*---------------Menu--------------*/
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0 0 20px;
+}
+
+
+.normal-btn,
+.dropbtn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    border: 3px solid orange;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    width: 150px;
+    height: 45px;
+    margin: -15px 0 0;
+}
+
+
+.dropdown-content img,
+.dropbtn img{
+    width: 30px;
+    margin-right: 10px;
+}
+.normal-btn img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+/**Changement de sens fleche**/
+
+.dropbtn a {
+    display: inline-block;
+    align-items: center;
+}
+
+.closedmenu {
+    display: none;
+}
+
+.dropdown:hover img {
+    display: none;
+}
+
+.dropdown:hover .closedmenu {
+    display: initial;
+}
+
+.dropdown-content img {
+    display: block !important;
+}
+
+/*--menu deroulant--*/
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%;
+
+}
+
+.dropdown-content a {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .openedmenu img {
+    display: none;
+}
+
+/*-------- Main - sidebar ---------- */
+
+.article3 {
+    display: flex;
+}
+
+.section-main1 {
+    width: 30%;
+    margin: 0 10px 0;
+}
+
+.section-main1a,
+.section-main1b,
+.section-main1c,
+.section-main1d {
+    border: 1px solid grey;
+    margin: 10px 0;
+}
+
+
+.section-main1a {
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.sidebar-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-li {
+    margin: 0;
+    padding: 0;
+    color: rgb(88, 88, 88);
+}
+
+.sidebar-lien {
+    color: rgb(88, 88, 88);
+}
+
+.sidebar-lien:hover {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+}
+
+.section-maps {
+    border: 1px solid grey;
+    padding: 60px;
+    border-radius: 10px;
+    background-image: url(images/marseille-main4.png);
+    background-size: 100%;
+    text-align: center;
+}
+
+.section-office {
+    padding: 10px;
+}
+
+.img-office {
+    display: flex;
+justify-content: center;}
+
+.img-office img {
+    width: 120px;
+
+}
+
+
+/* Main - Principal*/
+.section-main2 {
+    border: 1px solid grey;
+    width: 70%;
+    padding: 15px;
+}
+
+.mains-liens-mars {
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #003b95;
+    padding: 20px;
+}
+
+.mains-liens-mars:hover {
+    text-decoration: none;
+    color: rgb(230, 224, 224);
+
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #003b95;
+}
+
+.sidebar-h2 {
+    font-size: 16px;
+}
+
+.article-footer {
+    display: flex;
+}
+
+/* ---------------------------vanny----------------------*/
 article {
     display: flex;
     flex-wrap: wrap;
@@ -9,8 +274,8 @@ body {
         font-family: 'Sen', sans-serif;
 }
 
-h2 {
-    font-size: 50px;
+h1 {
+    font-size: 45px;
 }
 
 .section1 {
@@ -43,8 +308,8 @@ h2 {
 }
 
 p {
-    color: #bdbdbd;
-    font-size: 12px;
+    color: #5c5b5b;
+    font-size: 15px;
     margin: 30px 20px 40px 20px;
 }
 
@@ -57,7 +322,7 @@ p {
 
 .p2 {
     font-size: 22px;
-    color: black;
+    color: rgb(36, 35, 35);
     font-weight: 400;
     margin: 0;
 }
@@ -71,6 +336,7 @@ p {
 .img-musée {
     height: 257px;
     width: 376px;
+    transition: transform 0.3s ease;
 }
 
 .img-musée:hover {
