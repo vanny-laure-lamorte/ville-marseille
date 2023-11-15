@@ -336,6 +336,7 @@ p {
 .img-musée {
     height: 257px;
     width: 376px;
+    transition: transform 0.3s ease;
 }
 
 .img-musée:hover {
