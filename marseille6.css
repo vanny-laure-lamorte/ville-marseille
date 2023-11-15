@@ -1,19 +1,34 @@
-
-fieldset {
-    border: 2px solid #003b95;
-    text-align: center;
+body {
+    background-image: url(images/marseille-background.png);   
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;  
 }
 
+
+fieldset {
+    border: 3px solid #ffb700;
+    text-align: cover;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+legend {
+    border: 3px solid #ffb700;
+    padding: 3px;
+    background-color: white;
+}
 .form-titre {
     margin-top: 0;
     text-align: center;
     padding-bottom: 20px;
-    color: #003b95;
+    color: white;
+    font-size: 34px;
 }
 
 .formulaire {
-    color: #003b95;
-    font-weight: 800;
+    color: #535353;
+    font-weight: 00;
     font-family: 'Sen', sans-serif;;
     display: flex;
     flex-wrap: wrap;
@@ -26,35 +41,39 @@ fieldset {
     padding: 0;
     margin: 0;
    border: none;
+   background-color: white;
 }
 
 .text-form {
-    width: 50%;
-    height: 50px;
+    width: 60%;
+    height: 60px;
     margin-left: 25%;
     padding:  0 2px 2px 2px;
 }
 
 .message {
-    width: 50%;
+    width: 60%;
     height: 100px;
     margin-left: 25%;
-    padding:  0 0 4px 2px;
-   
+    padding:  0 0 4px 2px;   
+}
+
+.message-texte {
+    color: white;
 }
 
 .conditions {
-    font-size: 10px;
+    font-size: 12px;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 1%;
-
 }
 
 .envoyer {
-    color: #003b95;
-    font-size: 12px;
-    border: solid 2px #003b95;
+    color: #4a4b4d;
+    font-size: 13px;
+    font-weight: 600;
+    border: solid 2px #ffb700;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 1%;
@@ -65,10 +84,12 @@ fieldset {
     margin-top: 5%;
     margin-left: 62%;
     margin-bottom: 5%;
+    background-color: white;
 }
 
 .envoyer:hover {
     background: #ffb700;
+    border-color: white;
 }
 
 .envoyer:active {
