@@ -244,7 +244,7 @@ justify-content: center;}
 /* Footer */
 
 hr {
-    margin: 5%;
+    margin: 3%;
 }
 
 footer {
@@ -296,13 +296,14 @@ footer {
     width: 100%; 
     object-fit: contain;
     height: 100%;
+    margin: 0;
 }
 
 .footer-section-carte {
     display: flex;
-    width: 30%;
+    width: 10%;
     height: 70%;
-    margin: auto;
+   margin: 2%;
 }
 
 .footer-img-log {
@@ -315,5 +316,5 @@ footer {
 }
 
 .footer-img-log1 {
-    width: 90px;
+    width: 70px;
 }
