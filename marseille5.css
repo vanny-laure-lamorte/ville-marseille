@@ -1,4 +1,4 @@
-/*------ Header-------*/
+/* Header*/
 
 body {
     font-family: 'Sen', sans-serif;
@@ -14,11 +14,16 @@ header {
     display: flex;
     justify-content: space-between;
     color: white;
+    height: 120px;
 }
 
+/* 
 .section-nav1 {
     display: flex;
-}
+    height: 200px;
+    width: auto;
+} 
+*/
 
 .nav-ul1 {
     display: flex;
@@ -66,11 +71,16 @@ header {
 }
 
 /*---------------Menu--------------*/
+
+.article2 {
+    background-color: white;
+    height: 100px
+}
+
 .menu {
     display: flex;
     justify-content: center;
     background-color: white;
-    margin: 0 0 20px;
 }
 
 
@@ -87,21 +97,35 @@ header {
     color: black;
     width: 150px;
     height: 45px;
-    margin: -15px 0 0;
+    margin: -36px 0 0;
+    transition: transform 0.3s ease;
 }
+
 
 
 .dropdown-content img,
-.dropbtn img{
+.dropbtn img {
     width: 30px;
     margin-right: 10px;
 }
+
 .normal-btn img {
-    width: 80px;
-    margin-right: 10px;
+    width: 50px;
+    margin-right: 10px; 
+    transition: transform 0.3s ease;
+  
 }
 
-/**Changement de sens fleche**/
+.normal-btn:hover, .dropbtn:hover {
+    transform: scale(1.05);
+
+}
+
+.normal-btn {
+    transition: transform 0.3s ease;
+}
+
+/*---Changement de sens fleche---*/
 
 .dropbtn a {
     display: inline-block;
@@ -124,7 +148,7 @@ header {
     display: block !important;
 }
 
-/*--menu deroulant--*/
+/*---menu deroulant---*/
 .dropdown {
     position: relative;
 }
@@ -157,113 +181,7 @@ header {
     display: none;
 }
 
-/*-------- Main - sidebar ---------- */
-
-.article3 {
-    display: flex;
-}
-
-.section-main1 {
-    width: 30%;
-    margin: 0 10px 0;
-}
-
-.section-main1a,
-.section-main1b,
-.section-main1c,
-.section-main1d {
-    border: 1px solid grey;
-    margin: 10px 0;
-}
-
-
-.section-main1a {
-    border: 1px solid grey;
-    border-radius: 10px;
-}
-
-.sidebar-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.sidebar-li {
-    margin: 0;
-    padding: 0;
-    color: rgb(88, 88, 88);
-}
-
-.sidebar-lien {
-    color: rgb(88, 88, 88);
-}
-
-.sidebar-lien:hover {
-    color: rgb(88, 88, 88);
-    text-decoration: none;
-}
-
-.section-maps {
-    border: 1px solid grey;
-    padding: 60px;
-    border-radius: 10px;
-    background-image: url(images/marseille-main4.png);
-    background-size: 100%;
-    text-align: center;
-}
-
-.section-office {
-    padding: 10px;
-}
-
-.img-office {
-    display: flex;
-justify-content: center;}
-
-.img-office img {
-    width: 120px;
-
-}
-
-
-/* Main - Principal*/
-.section-main2 {
-    border: 1px solid grey;
-    width: 70%;
-    padding: 15px;
-}
-
-.mains-liens-mars {
-    text-decoration: none;
-    color: white;
-    border-radius: 10px;
-    background-color: #003b95;
-    padding: 20px;
-}
-
-.mains-liens-mars:hover {
-    text-decoration: none;
-    color: rgb(230, 224, 224);
-
-}
-
-
-
-/* Footer */
-
-footer {
-    background-color: #003b95;
-}
-
-.sidebar-h2 {
-    font-size: 16px;
-}
-
-.article-footer {
-    display: flex;
-}
-
-/* ---------------------------vanny----------------------*/
+/* ---------------------------Main----------------------*/
 article {
     display: flex;
     flex-wrap: wrap;
@@ -276,6 +194,10 @@ body {
 
 h1 {
     font-size: 45px;
+}
+
+.section0 {
+    margin: 0 5% 0;
 }
 
 .section1 {
