@@ -1,10 +1,168 @@
+/* Header*/
+
+body {
+    font-family: 'Sen', sans-serif;
+    margin: 0;
+
+}
+
+header {
+    background-color: #003b95;
+}
+
+.article1 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+/* 
+.section-nav1 {
+    display: flex;
+    height: 200px;
+    width: auto;
+} 
+*/
+
+.nav-ul1 {
+    display: flex;
+    list-style: none;
+}
+
+.nav-li1 {
+    margin: 10px;
+}
+
+.nav-bouton {
+    background: white;
+}
+
+.nav-bouton:hover {
+    background: rgb(166, 166, 201);
+}
+
+.nav-liens,
+.bouton {
+    color: #003b95;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: 600;
+}
+
+.nav-ul2 {
+    display: flex;
+    list-style: none;
+}
+
+.nav-img-question {
+    width: 35px;
+}
+
+.nav-img-bateau {
+    width: 250px;
+    display: flex;
+    margin: auto;
+}
+
+.img-maps {
+    background-image: url(images/marseille-main1.png);
+}
+
+/*---------------Menu nav Lucas--------------*/
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+
+.normal-btn,
+.dropbtn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 3px solid orange;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    width: 150px;
+    height: 45px;
+    margin: 0 0 0;
+}
+
+.dropdown-content img,
+.dropbtn img{
+    width: 30px;
+    margin-right: 10px;
+}
+.normal-btn img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+/**Changement de sens fleche**/
+
+.dropbtn a {
+    display: inline-block;
+    align-items: center;
+}
+
+.closedmenu {
+    display: none;
+}
+
+.dropdown:hover img {
+    display: none;
+}
+
+.dropdown:hover .closedmenu {
+    display: initial;
+}
+
+.dropdown-content img {
+    display: block !important;
+}
+
+
+/*--menu deroulant--*/
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%;
+
+}
+
+.dropdown-content a {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .openedmenu img {
+    display: none;
+}
+
+/*-----------main------------*/
 
 main {
    position: relative;
-}
-
-body {
-    margin: 0;
 }
 
 main::before {
@@ -22,6 +180,7 @@ main::before {
     z-index: -2;
 }
 
+
 fieldset {
     border: 3px solid #ffb700;
     text-align: cover;
@@ -37,15 +196,15 @@ legend {
 .form-titre {
     margin: 0;
     text-align: center;
-    padding-bottom: 20px;
+    padding:    100px 0 20px;
     color: #5c5b5b;
     font-size: 34px;
 }
 
 .formulaire {
-    color: #535353;
+    color: #4a4b4d;
     font-weight: 400;
-    font-family: 'Sen', sans-serif;;
+    font-family: 'Sen', sans-serif;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -79,7 +238,7 @@ legend {
 }
 
 .conditions {
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 1%;
@@ -97,10 +256,12 @@ legend {
     width: 15%;
     height: 7%;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 62%;
     margin-bottom: 5%;
     background-color: white;
+    font-family: 'Sen', sans-serif;;
+
 }
 
 .envoyer:hover {
