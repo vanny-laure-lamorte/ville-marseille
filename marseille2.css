@@ -23,6 +23,20 @@ article {
     align-items: baseline;
 }
 
+/* Titres et paragraphes */
+h2 {
+    font-family: 'Sen', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(36, 35, 35);
+}
+
+p {
+    font-family: 'Sen', sans-serif;
+    font-size: 15px;
+    color: #5c5b5b;
+}
+
 /* section image */
 
 .img {
@@ -37,4 +51,11 @@ article {
     width: 10px;
     height: 10px;
     margin-right: 2px;
+}
+
+.position {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    margin-bottom: -5px;
 }
