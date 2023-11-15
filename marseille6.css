@@ -98,7 +98,9 @@ header {
     width: 150px;
     height: 45px;
     margin: -36px 0 0;
+    transition: transform 0.3s ease;
 }
+
 
 
 .dropdown-content img,
@@ -108,11 +110,22 @@ header {
 }
 
 .normal-btn img {
-    width: 80px;
-    margin-right: 10px;
+    width: 50px;
+    margin-right: 10px; 
+    transition: transform 0.3s ease;
+  
 }
 
-/**Changement de sens fleche**/
+.normal-btn:hover, .dropbtn:hover {
+    transform: scale(1.05);
+
+}
+
+.normal-btn {
+    transition: transform 0.3s ease;
+}
+
+/*---Changement de sens fleche---*/
 
 .dropbtn a {
     display: inline-block;
@@ -135,7 +148,7 @@ header {
     display: block !important;
 }
 
-/*--menu deroulant--*/
+/*---menu deroulant---*/
 .dropdown {
     position: relative;
 }
