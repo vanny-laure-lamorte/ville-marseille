@@ -1,0 +1,46 @@
+/*---Premer bloc---*/
+
+hr {
+    margin: 5%;
+}
+.article1 {
+    display: flex;    
+}
+
+.section-intro {
+    width: 40%;
+    margin-left: 30px;
+}
+
+.section-maps {
+    border: 2px solid red;
+    width: 60%; 
+    margin: 0 30px;      
+    padding: 10px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-maps {
+    width: 260px;
+    height: 260px;      
+}
+
+/*---Deuxième bloc---*/
+
+.article2 {
+    display: flex;
+    margin: 5%;
+}
+
+h2 {
+    font-size: 15px;
+    color: rgb(36, 35, 35);
+}
+
+p{
+    font-size: 15px;
+    color: #5c5b5b;
+}
+
