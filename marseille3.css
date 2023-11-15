@@ -1,6 +1,208 @@
+/* Header*/
+
+body {
+    font-family: 'Sen', sans-serif;
+    margin: 0;
+
+}
+
+header {
+    background-color: #003b95;
+}
+
+.article1 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 120px;
+}
+
+/* 
+.section-nav1 {
+    display: flex;
+    height: 200px;
+    width: auto;
+} 
+*/
+
+.nav-ul1 {
+    display: flex;
+    list-style: none;
+}
+
+.nav-li1 {
+    margin: 10px;
+}
+
+.nav-bouton {
+    background: white;
+}
+
+.nav-bouton:hover {
+    background: rgb(166, 166, 201);
+}
+
+.nav-liens,
+.bouton {
+    color: #003b95;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: 600;
+}
+
+.nav-ul2 {
+    display: flex;
+    list-style: none;
+}
+
+.nav-img-question {
+    width: 35px;
+}
+
+.nav-img-bateau {
+    width: 250px;
+    display: flex;
+    margin: auto;
+}
+
+.img-maps {
+    background-image: url(images/marseille-main1.png);
+}
+
+/*---------------Menu--------------*/
+
+.article2 {
+    background-color: white;
+    height: 100px
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
 
 
-article {
+.normal-btn,
+.dropbtn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    border: 3px solid orange;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    width: 150px;
+    height: 45px;
+    margin: -36px 0 0;
+    transition: transform 0.3s ease;
+}
+
+
+
+.dropdown-content img,
+.dropbtn img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.normal-btn img {
+    width: 50px;
+    margin-right: 10px; 
+    transition: transform 0.3s ease;
+  
+}
+
+.normal-btn:hover, .dropbtn:hover {
+    transform: scale(1.05);
+
+}
+
+.normal-btn {
+    transition: transform 0.3s ease;
+}
+
+/*---Changement de sens fleche---*/
+
+.dropbtn a {
+    display: inline-block;
+    align-items: center;
+}
+
+.closedmenu {
+    display: none;
+}
+
+.dropdown:hover img {
+    display: none;
+}
+
+.dropdown:hover .closedmenu {
+    display: initial;
+}
+
+.dropdown-content img {
+    display: block !important;
+}
+
+/*---menu deroulant---*/
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%;
+
+}
+
+.dropdown-content a {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .openedmenu img {
+    display: none;
+}
+/*------------------MAIN------------------*/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.plageh1 {
+    margin: 0 5% 0;
+}
+h1 {
+    margin: 0;
+    font-size: 45px;
+    
+}
+
+.plageintro {
+    color: #5c5b5b;
+    font-size: 18px;
+    margin: 0 5% 20px;
+}
+
+.plage-b {
     display: flex;
     flex-direction: column;
     margin: 20px;
