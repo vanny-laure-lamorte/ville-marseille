@@ -74,7 +74,7 @@ header {
 
 .article2 {
     background-color: white;
-    height: 200px
+    height: 100px
 }
 
 .menu {
@@ -182,8 +182,27 @@ header {
 }
 /*------------------MAIN------------------*/
 
+main {
+    display: flex;
+    flex-direction: column;
+}
 
-plage {
+.plageh1 {
+    margin: 0 5% 0;
+}
+h1 {
+    margin: 0;
+    font-size: 45px;
+    
+}
+
+.plageintro {
+    color: #5c5b5b;
+    font-size: 18px;
+    margin: 0 5% 20px;
+}
+
+.plage-b {
     display: flex;
     flex-direction: column;
     margin: 20px;
