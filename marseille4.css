@@ -1,8 +1,15 @@
 /*---Premer bloc---*/
-
+main {
+    font-family:'Sen', sans-serif;
+}
 hr {
     margin: 5%;
 }
+
+iframe {
+    width: 100%;
+}
+
 .article1 {
     display: flex;    
 }
@@ -13,7 +20,6 @@ hr {
 }
 
 .section-maps {
-    border: 2px solid red;
     width: 60%; 
     margin: 0 30px;      
     padding: 10px;  
@@ -22,17 +28,8 @@ hr {
     align-items: center;
 }
 
-.img-maps {
-    width: 260px;
-    height: 260px;      
-}
 
 /*---Deuxième bloc---*/
-
-.article2 {
-    display: flex;
-    margin: 5%;
-}
 
 h2 {
     font-size: 15px;
@@ -43,4 +40,44 @@ p{
     font-size: 15px;
     color: #5c5b5b;
 }
+.p-interdit {
+    color: white;
+    font-family:'Sen', sans-serif;
+}
+
+.article2 {
+    display: flex;  
+    justify-content: center;  
+    flex-wrap: wrap;
+}
+
+.section2 { 
+    display: flex;
+    background-color: #003b95;
+    margin: 1%;
+    width: 210px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.section-logo-interdit {
+    margin: auto 5px auto 5px;
+}
+
+.img-section2 {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.section-texte-interdit {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+
 
