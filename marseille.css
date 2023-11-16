@@ -1,15 +1,10 @@
-/* Header*/
-body {
-    font-family: 'Sen', sans-serif;
-    margin: 0;
-
-}
-
-/* Header*/
+/*----------HEADER----------*/
 
 header {
     background-color: #003b95;
 }
+
+/*---Section 1: logo, bulle question, s'inscrire, se connecter---*/
 
 .article1 {
     display: flex;
@@ -24,17 +19,17 @@ header {
     align-items: center
 }
 
+.section-nav1 h1 {
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
 .section-nav1 img {
     background-color: rgba(179, 178, 178, 0.705);
     border-radius: 50%;
     height: 100px;
     width: 100px;
-}
-
-.section-nav1 h1 {
-    letter-spacing: 3px;
-    font-size: 25px;
-    margin-left: 50px;
 }
 
 .nav-ul1 {
@@ -73,17 +68,17 @@ header {
     width: 35px;
 }
 
-.nav-img-bateau {
-    width: 250px;
-    display: flex;
-    margin: auto;
-}
-
 .img-maps {
     background-image: url(images/marseille-main1.png);
 }
 
-/*---------------Menu--------------*/
+/*---Section2: Menu déroulant---*/
+
+
+body {
+    font-family: 'Sen', sans-serif;
+    margin: 0;
+}
 
 .article2 {
     background-color: white;
@@ -97,6 +92,11 @@ header {
     flex-wrap: wrap;
 }
 
+.nav-img-bateau {
+    width: 250px;
+    display: flex;
+    margin: auto;
+}
 
 .normal-btn,
 .dropbtn {
@@ -115,8 +115,6 @@ header {
     transition: transform 0.3s ease;
 }
 
-
-
 .dropdown-content img,
 .dropbtn img {
     width: 30px;
@@ -127,13 +125,11 @@ header {
     width: 50px;
     margin-right: 10px;
     transition: transform 0.3s ease;
-
 }
 
 .normal-btn:hover,
 .dropbtn:hover {
     transform: scale(1.05);
-
 }
 
 .normal-btn {
@@ -164,6 +160,7 @@ header {
 }
 
 /*---menu deroulant---*/
+
 .dropdown {
     position: relative;
 }
@@ -175,7 +172,6 @@ header {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     width: 100%;
-
 }
 
 .dropdown-content a {
@@ -185,7 +181,6 @@ header {
     padding: 12px 16px;
     text-decoration: none;
     color: #333;
-
 }
 
 .dropdown:hover .dropdown-content {
@@ -196,8 +191,7 @@ header {
     display: none;
 }
 
-
-/*-------- Main - sidebar ---------- */
+/*----------MAIN: sidebar----------*/
 
 .article3 {
     display: flex;
@@ -263,7 +257,7 @@ justify-content: center;}
     width: 120px;
 }
 
-/* Main - Principal*/
+/* ----------MAIN: section principal----------*/
 
 .section-main2 {
     border: 1px solid grey;
@@ -285,7 +279,7 @@ justify-content: center;}
 
 }
 
-/* Footer */
+/*----------FOOTER----------*/
 
 hr {
     margin: 3%;
@@ -363,11 +357,11 @@ footer {
     width: 70px;
 }
 
-/*-------header MQ---------*/
+/*-------MEDIA QUERIES---------*/
+
+/*---header---*/
 
 @media screen and (max-width: 900px) {
-
-
     .normal-btn img,
     .dropbtn img,
     .closedmenu,
@@ -376,15 +370,13 @@ footer {
         display: none !important;
     }
 
-
     .dropbtn,
     .normal-btn {
         width: auto;
         height: auto;
         margin: 0 1px 1px;
     }
-
-
+    
     .dropdown-content a {
         font-size: 11px
     }
