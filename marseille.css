@@ -1,9 +1,8 @@
-/* ---------------------------vanny----------------------*/
 /* Header*/
-
 body {
     font-family: 'Sen', sans-serif;
     margin: 0;
+
 }
 
 header {
@@ -14,10 +13,24 @@ header {
     display: flex;
     justify-content: space-between;
     color: white;
+    height: 120px;
 }
 
 .section-nav1 {
     display: flex;
+    
+} 
+.section-nav1 img {
+    background-color: rgba(179, 178, 178, 0.705);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px 0;
+}
+.section-nav1 h1 {
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-left: 50px;
 }
 
 .nav-ul1 {
@@ -65,13 +78,20 @@ header {
     background-image: url(images/marseille-main1.png);
 }
 
-/*---------------Menu nav--------------*/
+/*---------------Menu--------------*/
+
+.article2 {
+    background-color: white;
+    height: 200px
+}
+
 .menu {
     display: flex;
     justify-content: center;
     background-color: white;
-    margin: 0 0 20px;
+    flex-wrap: wrap;
 }
+
 
 .normal-btn,
 .dropbtn {
@@ -86,20 +106,35 @@ header {
     color: black;
     width: 150px;
     height: 45px;
-    margin: -15px 0 0;
+    margin: -36px 0 0;
+    transition: transform 0.3s ease;
 }
 
+
+
 .dropdown-content img,
-.dropbtn img{
+.dropbtn img {
     width: 30px;
     margin-right: 10px;
 }
+
 .normal-btn img {
-    width: 80px;
-    margin-right: 10px;
+    width: 50px;
+    margin-right: 10px; 
+    transition: transform 0.3s ease;
+  
 }
 
-/**Changement de sens flèche**/
+.normal-btn:hover, .dropbtn:hover {
+    transform: scale(1.05);
+
+}
+
+.normal-btn {
+    transition: transform 0.3s ease;
+}
+
+/*---Changement de sens fleche---*/
 
 .dropbtn a {
     display: inline-block;
@@ -122,7 +157,7 @@ header {
     display: block !important;
 }
 
-/*--menu deroulant--*/
+/*---menu deroulant---*/
 .dropdown {
     position: relative;
 }
@@ -134,6 +169,7 @@ header {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     width: 100%;
+
 }
 
 .dropdown-content a {
@@ -143,6 +179,7 @@ header {
     padding: 12px 16px;
     text-decoration: none;
     color: #333;
+
 }
 
 .dropdown:hover .dropdown-content {
@@ -152,6 +189,7 @@ header {
 .dropdown:hover .openedmenu img {
     display: none;
 }
+
 
 /*-------- Main - sidebar ---------- */
 
@@ -317,4 +355,38 @@ footer {
 
 .footer-img-log1 {
     width: 70px;
+}
+
+/*-------header MQ---------*/
+
+@media screen and (max-width: 900px) {
+
+
+    .normal-btn img,
+    .dropbtn img,
+    .closedmenu,
+    .openedmenu img,
+    .dropdown-content img {
+        display: none !important;
+    }
+
+
+    .dropbtn,
+    .normal-btn {
+        width: auto;
+        height: auto;
+        margin: 0 1px 1px;
+    }
+
+
+    .dropdown-content a {
+        font-size: 11px
+    }
+    .article2{
+        height: 100px
+    }
+
+    .footer-section-carte {
+        display: none
+    }
 }
