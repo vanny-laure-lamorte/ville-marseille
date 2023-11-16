@@ -17,13 +17,22 @@ header {
     height: 120px;
 }
 
-/* 
 .section-nav1 {
     display: flex;
-    height: 200px;
-    width: auto;
+    
 } 
-*/
+.section-nav1 img {
+    background-color: rgba(179, 178, 178, 0.705);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px 0;
+}
+.section-nav1 h1 {
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-left: 50px;
+}
 
 .nav-ul1 {
     display: flex;
