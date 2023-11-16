@@ -32,15 +32,27 @@ iframe {
 
 /*---Deuxième bloc---*/
 
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
 h2 {
     font-size: 15px;
     color: rgb(36, 35, 35);
 }
 
 p{
-    font-size: 15px;
+    font-size: 12px;
     color: #5c5b5b;
+    margin: 0;
+    padding: 0;
 }
+
+.p1 {
+margin: 10px auto 30px auto;
+}
+
 .p-interdit {
     color: white;
     font-family:'Sen', sans-serif;
@@ -192,5 +204,28 @@ img {
 
 .bloc-texte {
     width: 60%;
+}
+
+.section-lieu {
+    margin: 10px;
+}
+
+
+.logo-localisation {     
+    width: 15px;
+    height: 15px; 
+} 
+
+.logo-metro {     
+    width: 25px;
+    height: 25px; 
+} 
+
+.parc {
+    text-decoration: underline;
+    color: #5c5b5b;
+}
+.parc:hover {
+    text-decoration: none;
 }
 
