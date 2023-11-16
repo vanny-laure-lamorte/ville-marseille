@@ -15,19 +15,21 @@ header {
     justify-content: space-between;
     color: white;
     height: 120px;
+    flex-wrap: wrap;
 }
 
 .section-nav1 {
     display: flex;
-    
-} 
+    align-items: center
+}
+
 .section-nav1 img {
     background-color: rgba(179, 178, 178, 0.705);
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    margin: 10px 10px 0;
 }
+
 .section-nav1 h1 {
     letter-spacing: 3px;
     font-size: 25px;
@@ -37,6 +39,7 @@ header {
 .nav-ul1 {
     display: flex;
     list-style: none;
+    padding-left: 0;
 }
 
 .nav-li1 {
@@ -121,12 +124,13 @@ header {
 
 .normal-btn img {
     width: 50px;
-    margin-right: 10px; 
+    margin-right: 10px;
     transition: transform 0.3s ease;
-  
+
 }
 
-.normal-btn:hover, .dropbtn:hover {
+.normal-btn:hover,
+.dropbtn:hover {
     transform: scale(1.05);
 
 }
@@ -313,30 +317,81 @@ textarea {
 
 }
 
-@media screen and (max-width: 900px) {
+/* Footer */
 
-
-    .normal-btn img,
-    .dropbtn img,
-    .closedmenu,
-    .openedmenu img,
-    .dropdown-content img {
-        display: none !important;
-    }
-
-
-    .dropbtn,
-    .normal-btn {
-        width: auto;
-        height: auto;
-        margin: 0 1px 1px;
-    }
-
-
-    .dropdown-content a {
-        font-size: 11px
-    }
-    .article2{
-        height: 100px
-    }
+hr {
+    margin: 3%;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #003b95;
+    height: 250px;
+}
+
+.footer-ul {
+    list-style: none;
+    color: white;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section-carte {
+    display: flex;
+
+}
+
+.sidebar-h2 {
+    font-size: 16px;
+}
+
+.article-footer {
+    display: flex;
+}
+
+.footer-liens {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-liens:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.fa-brands {
+    color: white;
+    margin: 5px;
+}
+
+.footer-img-carte {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+    margin: 0;
+}
+
+.footer-section-carte {
+    display: flex;
+    width: 10%;
+    height: 70%;
+    margin: 2%;
+}
+
+.footer-img-log {
+    width: 100px;
+    object-fit: contain;
+}
+
+.logo-marseille {
+    margin-right: 50px;
+}
+
+.footer-img-log1 {
+    width: 70px;
+}
+
