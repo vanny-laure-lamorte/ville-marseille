@@ -81,6 +81,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: white;
+    flex-wrap: wrap;
 }
 
 
@@ -301,4 +302,32 @@ textarea {
 .section2 {
     height: 240px;
 
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .normal-btn img,
+    .dropbtn img,
+    .closedmenu,
+    .openedmenu img,
+    .dropdown-content img {
+        display: none !important;
+    }
+
+
+    .dropbtn,
+    .normal-btn {
+        width: auto;
+        height: auto;
+        margin: 0 1px 1px;
+    }
+
+
+    .dropdown-content a {
+        font-size: 11px
+    }
+    .article2{
+        height: 100px
+    }
 }
