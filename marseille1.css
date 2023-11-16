@@ -30,7 +30,7 @@ h1 {
 .histoire {
     display: flex;
     min-height: 80vh;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     align-content: center;
 }
 
@@ -123,9 +123,7 @@ h2 {
     border: 2px solid orange;
     border-radius: 10px;
 }
-.vertical-menu img:hover {
-    transform: scale(1.2);
-}
+
 
 .hover-text {
     position: absolute;
@@ -144,3 +142,43 @@ h2 {
     left: 0;
     opacity: 1;
 }
+
+@media screen and (max-width: 700px) {
+
+    .histoire {
+        flex-direction: column;
+        align-items:center;
+        margin: 0
+    }
+
+    .histoire-img {
+        width: 85%;
+        margin: 30px 0 30px;
+    }
+
+    .content {
+        width: 75%;
+    }
+    .histoire-img img {
+        height: 80px;
+    }
+
+    .vertical-menu {
+        flex-direction: row;
+        width: 70%;
+        justify-content: space-around;
+        
+    }
+
+    .image-droite, .image-gauche {
+        justify-content: center;
+        position: initial;
+        margin: 0;
+    }
+.menu-section:nth-child(1) {
+    display: none;
+}
+
+}
+
+
