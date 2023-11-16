@@ -1,4 +1,6 @@
 /*---Premer bloc---*/
+
+
 main {
     font-family:'Sen', sans-serif;
 }
@@ -15,21 +17,25 @@ iframe {
 }
 
 .section-intro {
-    width: 40%;
-    margin-left: 30px;
+    width: 50%;  
+    margin-left: 50px;
 }
 
-.section-maps {
-    width: 60%; 
-    margin: 0 30px;      
+.section-maps {   
+    width: 50%;
+    margin: auto 50px auto 50px;      
     padding: 10px;  
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
 /*---Deuxième bloc---*/
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
 
 h2 {
     font-size: 15px;
@@ -37,9 +43,16 @@ h2 {
 }
 
 p{
-    font-size: 15px;
+    font-size: 12px;
     color: #5c5b5b;
+    margin: 0;
+    padding: 0;
 }
+
+.p1 {
+margin: 10px auto 30px auto;
+}
+
 .p-interdit {
     color: white;
     font-family:'Sen', sans-serif;
@@ -62,7 +75,7 @@ p{
 }
 
 .section-logo-interdit {
-    margin: auto 5px auto 5px;
+    margin: auto 6px auto 5px;
 }
 
 .img-section2 {
@@ -72,12 +85,147 @@ p{
     border-radius: 10px;
 }
 
+.img-cueillette, .img-déchets {
+    width: 73px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
 .section-texte-interdit {
     display: flex;
     justify-content: center;
     margin: auto;
-
 }
 
 
+/*---Troisième bloc---*/
+
+h1 {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(36, 35, 35);
+    }
+
+img {
+    max-width: 100%;
+}
+
+.section-étoile {
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+}
+
+.article3 {
+    position: relative;
+}
+
+.slider-container {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+    height: 360px;
+    overflow: hidden;
+}
+
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+
+.menu label:hover,.menu label:focus {
+    background: #ffb700;
+}
+
+.slide-img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+}
+
+[id^="slide"]:checked + .slide-img {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+
+.logo-localisation {
+    width: 30px;
+    height: 30px;
+}
+
+.étoile {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+/*---Quatrième bloc---*/
+
+.article4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc-image-texte {
+    display: flex;
+    margin: 20px 0;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bloc-image {
+    width: 40%;
+    height: auto;
+    border: 1px solid red;
+    margin: 0 20px;
+}
+
+.bloc-texte {
+    width: 60%;
+}
+
+.section-lieu {
+    margin: 10px;
+}
+
+
+.logo-localisation {     
+    width: 15px;
+    height: 15px; 
+} 
+
+.logo-metro {     
+    width: 25px;
+    height: 25px; 
+} 
+
+.parc {
+    text-decoration: underline;
+    color: #5c5b5b;
+}
+.parc:hover {
+    text-decoration: none;
+}
 
