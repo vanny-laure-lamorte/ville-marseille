@@ -215,20 +215,11 @@ h1 {
     align-items: baseline;
 }
 
-.container {
+.contenu {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-}
-
-.content {
-    flex: 1;
-    margin-left: 20px;
-}
-
-.content, h2, p {
-    padding: 10px;
 }
 
 .link-position {
@@ -249,7 +240,6 @@ h1 {
 /* section image */
 
 .étoile {
-    width: 10px;
-    height: 10px;
-    margin-right: 2px;
+    width: 15px;
+    height: 15px;
 }
