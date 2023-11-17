@@ -1,6 +1,5 @@
 /*---Premer bloc---*/
 
-
 main {
     font-family:'Sen', sans-serif;
 }
@@ -163,7 +162,31 @@ img {
     transition: left 0s 0.75s;
 }
 
-[id^="slide"]:checked + .slide-img {
+[id^="slide1"]:checked + .slide-img {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+
+[id^="slide2"]:checked + .slide-img {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+
+[id^="slide3"]:checked + .slide-img {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+
+[id^="slide4"]:checked + .slide-img {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+
+[id^="slide5"]:checked + .slide-img {
     left: 0;
     z-index: 100;
     transition: left 0.65s ease-out;
@@ -198,7 +221,6 @@ img {
 .bloc-image {
     width: 40%;
     height: auto;
-    border: 1px solid red;
     margin: 0 20px;
 }
 
