@@ -3,7 +3,6 @@
 body {
     font-family: 'Sen', sans-serif;
     margin: 0;
-
 }
 
 header {
@@ -22,7 +21,6 @@ header {
     height: 200px;
     width: auto;
 } 
-
 
 .nav-ul1 {
     display: flex;
@@ -82,7 +80,6 @@ header {
     background-color: white;
 }
 
-
 .normal-btn,
 .dropbtn {
     display: flex;
@@ -115,7 +112,6 @@ header {
 
 .normal-btn:hover, .dropbtn:hover {
     transform: scale(1.05);
-
 }
 
 .normal-btn {
@@ -157,7 +153,6 @@ header {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     width: 100%;
-
 }
 
 .dropdown-content a {
@@ -167,7 +162,6 @@ header {
     padding: 12px 16px;
     text-decoration: none;
     color: #333;
-
 }
 
 .dropdown:hover .dropdown-content {
@@ -179,18 +173,20 @@ header {
 }
 /*------------------MAIN------------------*/
 
-main {
+
+.article4 {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 60px 0;
 }
 
 .plageh1 {
     margin: 0 5% 0;
 }
+
 h1 {
     margin: 0;
-    font-size: 45px;
-    
+    font-size: 45px;    
 }
 
 .plageintro {
@@ -199,30 +195,18 @@ h1 {
     margin: 0 5% 20px;
 }
 
-.plage-b {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-}
-
-.bloc1 {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
-}
-
-.bloc2a {
-    display: flex;
-    align-items: baseline;
-}
-
 .contenu {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    height: 100vh;
+    align-content: space-between;
+    width: 30%;
+    height: auto;
+    border: 1px solid #333;
+    box-shadow: 10px 5px 5px rgb(197, 197, 197);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .link-position {
@@ -231,21 +215,37 @@ h1 {
     color:#FFB700;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 0 16px rgba(0,0,0,0.1)
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: flex-end;
+    
 }
 
 .link-position:hover{
     background-color: #FFB700;
     color: #003b95;
     transition: 0.3s ease;
-  }
+}
 
+
+/*Aligenement des éléments */
+
+.img-plage {
+    display: flex;
+    justify-content: center;
+}
+
+.bouton1 {
+    margin-bottom: 5px;
+}
 /* section image */
 
 .img{
+    width: 60%;
+    height: auto;
     border-radius: 10%;
     padding: 0px;
-    box-shadow: 10px 5px 5px rgb(197, 197, 197);
+
 }
 
 .étoile {
@@ -253,31 +253,3 @@ h1 {
     height: 15px;
     box-shadow: 0 0 16px rgba(0,0,0,0.1);
 }
-
-/* hr */
-.section-hr {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.bouton-plages {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-decoration: none;
-    text-align: center;
-    background-color: #FFB700;
-    color:#003b95;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 16px rgba(0,0,0,0.1);
-}
-
-.bouton-plages:hover {
-    background-color: #003b95;
-    color: #FFB700;
-    transition: 0.3s ease;
-}
-
-/* Responsive */
