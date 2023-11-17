@@ -16,5 +16,9 @@ th {
 
 .titre-tableau {
     font-weight: 600;
- 
+}
+
+.icone {
+    width: 20px;
+    height: 20px
 }
