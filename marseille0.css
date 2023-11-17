@@ -5,10 +5,12 @@ main {
 }
 
 .article3 {
-    width: 20%;
+    width: 30%;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin: 0 10px auto 10px;
+    
 }
 
 .sous-section1 {
@@ -44,13 +46,6 @@ main {
     color: darkslategray;
 }
 
-.article4 {
-    width: 80%;
-    margin: 0 5px auto 30px;
-    border-radius: 10px;
-    padding: 10px;
-    overflow:hidden ;
-}
 
 .lien-sidebar {
     text-decoration: none;
@@ -63,30 +58,53 @@ main {
         color: #4b4a4a;
     }
 
-.img-background {
-    display: flex;
-    justify-content: center;
-    opacity: 1;
+
+
+/* ----------MAIN: section principal----------*/
+
+/* ----------Section1: texte intro----------*/
+
+.article4{
+    width: 70%;
+    height: auto;
+    margin-left: 40px;
 }
 
-.img-background img {
-    width: 90%;
-    height: auto;
-    opacity: 0.2;
+.article4  {
+    display: flex;
+    flex-direction: column;
 }
 
 .p-text-intro {
     margin: auto auto 20px;
-    color: white;
-    background-color: #ffa500;
+    color: rgb(75, 74, 74);   
     padding: 20px;
-    width: 80%;    
     border-radius: 5px;
     text-align: center;
 }
-
-/* ----------MAIN: section principal----------*/
-
 .bienvenue {
     font-size: 24px;
 }
+
+/* ----------Section1: images bloc----------*/
+
+.img-main {
+    display: flex;
+   justify-content: center;
+}
+
+.img-mars1 {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;  
+    margin: 5px; 
+}
+
+.img-mars2 {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;  
+    margin: 5px;
+}
+      
+   
