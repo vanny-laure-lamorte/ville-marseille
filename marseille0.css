@@ -1,5 +1,17 @@
 /*----------MAIN: sidebar----------*/
 
+/* ---Section1: Bonne mère en ligne jaune---*/
+.section-ligne-jaune {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+}
+
+.img-ligne-jaune {
+    width: 100px;
+}
+
+/*---Section1: tableau---*/
 main {
     display: flex;
 }
@@ -10,7 +22,6 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 10px auto 10px;
-    
 }
 
 .sous-section1 {
@@ -19,18 +30,18 @@ main {
     background-color: rgb(172, 170, 170);
     border-radius: 10px;
     margin: 0 10px 10px 0;
- 
-    padding: 5px 16px;    
+
+    padding: 5px 16px;
     background:
         linear-gradient(90deg,
-        rgb(233, 230, 230) 21%,
-        rgb(179, 178, 178) 53%,
-        rgb(136, 135, 135) 100%),
+            rgb(233, 230, 230) 21%,
+            rgb(179, 178, 178) 53%,
+            rgb(136, 135, 135) 100%),
         linear-gradient(90deg,
-        rgb(117, 117, 117) 21%,
-        rgb(117, 117, 117) 50%,
-        rgba(117, 117, 177, 1) 50%);
-    background-size: 100% 100%, 0 0;    
+            rgb(117, 117, 117) 21%,
+            rgb(117, 117, 117) 50%,
+            rgba(117, 117, 177, 1) 50%);
+    background-size: 100% 100%, 0 0;
     background-repeat: no-repeat, no-repeat;
     background-color: rgb(201, 201, 201)0;
     transition-duration: 1s;
@@ -46,42 +57,69 @@ main {
     color: darkslategray;
 }
 
-
 .lien-sidebar {
     text-decoration: none;
     font-size: 15px;
-     color: #3b3b3b;
+    color: #3b3b3b;
 }
 
 .lien-sidebar:hover {
-        font-size: 16px;
-        color: #4b4a4a;
-    }
+    font-size: 16px;
+    color: #4b4a4a;
+}
 
+/* ----------Section1: tableau----------*/
 
+table {
+    border-collapse: collapse;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+td,
+th {
+    border: 1px solid grey;
+    padding: 2px;
+    font-family: 'Sen', sans-serif;
+}
+
+th {
+    background: grey;
+    font-weight: 800;
+}
+
+.titre-tableau {
+    font-weight: 600;
+}
+
+.icone {
+    width: 20px;
+    height: 20px
+}
 
 /* ----------MAIN: section principal----------*/
 
 /* ----------Section1: texte intro----------*/
 
-.article4{
+.article4 {
     width: 70%;
     height: auto;
     margin-left: 40px;
 }
 
-.article4  {
+.article4 {
     display: flex;
     flex-direction: column;
 }
 
 .p-text-intro {
     margin: auto auto 20px;
-    color: rgb(75, 74, 74);   
+    color: rgb(75, 74, 74);
     padding: 20px;
     border-radius: 5px;
     text-align: center;
 }
+
 .bienvenue {
     font-size: 24px;
 }
@@ -90,21 +128,37 @@ main {
 
 .img-main {
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 
 .img-mars1 {
     width: 45%;
     height: auto;
-    border-radius: 10px;  
-    margin: 5px; 
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .img-mars2 {
     width: 30%;
     height: auto;
-    border-radius: 10px;  
+    border-radius: 10px;
     margin: 5px;
 }
-      
-   
+
+/* ----------Section1: Actualités----------*/
+
+.bouton-lire {   
+    background-color: #003b95;
+    padding: 8px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.lien-actualité {
+    color: white;
+    text-decoration: none;
+}
+
+.lien-actualité:hover {
+    text-decoration: underline;
+}
