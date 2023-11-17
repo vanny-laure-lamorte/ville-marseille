@@ -1,29 +1,41 @@
-
-
-/* ---------------------------vanny----------------------*/
-/* Header*/
-
-body {
-    font-family: 'Sen', sans-serif;
-}
+/*----------HEADER----------*/
 
 header {
     background-color: #003b95;
 }
 
+/*---Section 1: logo, bulle question, s'inscrire, se connecter---*/
+
 .article1 {
     display: flex;
     justify-content: space-between;
     color: white;
+    height: 120px;
+    flex-wrap: wrap;
 }
 
 .section-nav1 {
     display: flex;
+    align-items: center
+}
+
+.section-nav1 h1 {
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.section-nav1 img {
+    background-color: rgba(179, 178, 178, 0.705);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 
 .nav-ul1 {
     display: flex;
     list-style: none;
+    padding-left: 0;
 }
 
 .nav-li1 {
@@ -38,7 +50,8 @@ header {
     background: rgb(166, 166, 201);
 }
 
-.nav-liens, .bouton {
+.nav-liens,
+.bouton {
     color: #003b95;
     text-decoration: none;
     padding: 10px;
@@ -55,111 +68,226 @@ header {
     width: 35px;
 }
 
+.img-maps {
+    background-image: url(images/marseille-main1.png);
+}
+
+/*---Section2: Menu déroulant---*/
+
+
+body {
+    font-family: 'Sen', sans-serif;
+    margin: 0;
+}
+
+.article2 {
+    background-color: white;
+    height: 200px
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
 .nav-img-bateau {
     width: 250px;
     display: flex;
     margin: auto;
 }
 
-.img-maps {
-    background-image: url(images/marseille-main1.png);
+.normal-btn,
+.dropbtn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    border: 3px solid orange;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    width: 150px;
+    height: 45px;
+    margin: -36px 0 0;
+    transition: transform 0.3s ease;
 }
-/* Main - sidebar */
 
-.article3 {
+.dropdown-content img,
+.dropbtn img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.normal-btn img {
+    width: 50px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.normal-btn:hover,
+.dropbtn:hover {
+    transform: scale(1.05);
+}
+
+.normal-btn {
+    transition: transform 0.3s ease;
+}
+
+/*---Changement de sens fleche---*/
+
+.dropbtn a {
+    display: inline-block;
+    align-items: center;
+}
+
+.closedmenu {
+    display: none;
+}
+
+.dropdown:hover img {
+    display: none;
+}
+
+.dropdown:hover .closedmenu {
+    display: initial;
+}
+
+.dropdown-content img {
+    display: block !important;
+}
+
+/*---menu deroulant---*/
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%;
+}
+
+.dropdown-content a {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .openedmenu img {
+    display: none;
+}
+
+/*----------MAIN: sidebar----------*/
+
+main {
     display: flex;
 }
 
-.section-main1 {    
-    width: 30%;
-    margin-right: 10px;
-   
+.article3 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px auto 10px;
 }
 
-.section-main1a, .section-main1b, .section-main1c, .section-main1d {
-    border: 1px solid grey;
-    margin: 10px 0;
-}
-
-.section-main1a {
-    border: 1px solid grey;
-    margin: 0 10px 10px 0;
-    
-    border-radius: 10px;  
-}
-
-.sidebar-ul {
-    list-style: none;
-    margin: 0;    
-    padding: 0;
-}
-
-.sidebar-li {
-    margin: 0;
-    padding: 0;
-    color: rgb(88, 88, 88);
-}
-
-.sidebar-lien {
-    color: rgb(88, 88, 88);
-}
-
-.sidebar-lien:hover {
-    color: rgb(88, 88, 88);
-    text-decoration: none;
-}
-
-.section-maps {
-    border: 1px solid grey;
-    margin: 0 10px 10px 0;
-    padding: 060px;
+.sous-section1 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(172, 170, 170);
     border-radius: 10px;
-    background-image: url(images/marseille-main4.png);
-    background-size: 100%;
-    text-align: center;
+    margin: 0 10px 10px 0;
+ 
+    padding: 5px 16px;    
+    background:
+        linear-gradient(90deg,
+        rgb(233, 230, 230) 21%,
+        rgb(179, 178, 178) 53%,
+        rgb(136, 135, 135) 100%),
+        linear-gradient(90deg,
+        rgb(117, 117, 117) 21%,
+        rgb(117, 117, 117) 50%,
+        rgba(117, 117, 177, 1) 50%);
+    background-size: 100% 100%, 0 0;    
+    background-repeat: no-repeat, no-repeat;
+    background-color: rgb(201, 201, 201)0;
+    transition-duration: 1s;
 }
 
-.section-office {
+.sous-section1:hover {
+    background-color: rgb(131, 130, 130);
+    background-size: 0 100%;
+    transition-duration: 1s;
+}
+
+.p1 {
+    color: darkslategray;
+}
+
+.article4 {
+    width: 80%;
+    margin: 0 5px auto 30px;
+    border-radius: 10px;
     padding: 10px;
 }
 
-.img-office {
-  width: 120px;
-  margin-right: 0; 
-  border: 1px solid red;
-
-}
-
-
-/* Main - Principal*/
-hhhhhhhhhh
-
-.section-main2 {
-    border: 1px solid grey;
-    width: 70%;
-    padding: 15px;
-} 
-   
-.mains-liens-mars {
+.lien-sidebar {
     text-decoration: none;
-    color: white;
-    border-radius: 10px;
-    background-color: #003b95;
-    padding: 20px;
+    font-size: 15px;
+     color: #3b3b3b;
 }
 
-.mains-liens-mars:hover {
-    text-decoration: none;
-    color: rgb(230, 224, 224);
-   
+.lien-sidebar:hover {
+        font-size: 16px;
+        color: #4b4a4a;
+}
+
+/* ----------MAIN: section principal----------*/
+
+.bienvenue {
+    font-size: 24px;
 }
 
 
+/*----------FOOTER----------*/
 
-/* Footer */
+hr {
+    margin: 3%;
+}
 
 footer {
+    display: flex;
+    justify-content: center;
     background-color: #003b95;
+    height: 250px;
+}
+
+.footer-ul {
+    list-style: none;
+    color: white;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section-carte {
+    display: flex;
+
 }
 
 .sidebar-h2 {
@@ -170,4 +298,78 @@ footer {
     display: flex;
 }
 
-/* ---------------------------vanny----------------------*/
+.footer-liens {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-liens:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.fa-brands {
+    color: white;
+    margin: 5px;
+}
+
+.footer-img-carte {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+    margin: 0;
+}
+
+.footer-section-carte {
+    display: flex;
+    width: 10%;
+    height: 70%;
+    margin: 2%;
+}
+
+.footer-img-log {
+    width: 100px;
+    object-fit: contain;
+}
+
+.logo-marseille {
+    margin-right: 50px;
+}
+
+.footer-img-log1 {
+    width: 70px;
+}
+
+/*-------MEDIA QUERIES---------*/
+
+/*---header---*/
+
+@media screen and (max-width: 900px) {
+
+    .normal-btn img,
+    .dropbtn img,
+    .closedmenu,
+    .openedmenu img,
+    .dropdown-content img {
+        display: none !important;
+    }
+
+    .dropbtn,
+    .normal-btn {
+        width: auto;
+        height: auto;
+        margin: 0 1px 1px;
+    }
+
+    .dropdown-content a {
+        font-size: 11px
+    }
+
+    .article2 {
+        height: 100px
+    }
+
+    .footer-section-carte {
+        display: none
+    }
+}
