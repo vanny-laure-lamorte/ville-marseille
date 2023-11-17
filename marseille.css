@@ -82,7 +82,7 @@ body {
 
 .article2 {
     background-color: white;
-    height: 200px
+    height: 100px;
 }
 
 .menu {
@@ -196,7 +196,7 @@ body {
 
 /*----------FOOTER----------*/
 
-hr {
+footer hr {
     margin: 3%;
 }
 
