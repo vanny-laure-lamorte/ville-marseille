@@ -10,11 +10,10 @@ main {
 .article5 {
     width: 80%;
     margin: auto;
-
 }
 
-hr {
-    margin: 5%;
+main hr {
+    margin: 2%;
 }
 
 /*-------------intro----------*/
