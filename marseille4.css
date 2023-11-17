@@ -439,6 +439,20 @@ img {
     text-decoration: none;
 }
 
+/*---Cinquième bloc---*/
+
+.article5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe {
+    width: 100%;
+    width: 640px;
+    height: 480px;
+}
+
 /* Footer */
 
 hr {
@@ -515,18 +529,4 @@ footer {
 
 .footer-img-log1 {
     width: 70px;
-}/*---Cinquième bloc---*/
-
-.article5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-
-iframe {
-    width: 100%;
-    width: 640px;
-    height: 480px;
-}
-
-/*---Footer---*/
