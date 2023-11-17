@@ -11,15 +11,6 @@ iframe {
     width: 100%;
 }
 
-.article1 {
-    display: flex;    
-}
-
-.section-intro {
-    width: 50%;  
-    margin-left: 50px;
-}
-
 .section-maps {   
     width: 50%;
     margin: auto 50px auto 50px;      
@@ -153,13 +144,15 @@ img {
 }
 
 .slide-img {
-    width: 100%;
+    width: 80%;
     height: 300px;
     position: absolute;
     top: 0;
     left: 100%;
     z-index: 10;
     transition: left 0s 0.75s;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(197, 197, 197);
 }
 
 [id^="slide1"]:checked + .slide-img {
@@ -213,7 +206,6 @@ img {
 .bloc-image-texte {
     display: flex;
     margin: 20px 0;
-    border: 1px solid grey;
     border-radius: 10px;
     padding: 10px;
 }
