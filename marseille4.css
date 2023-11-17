@@ -85,7 +85,7 @@ header {
 
 .article2 {
     background-color: white;
-    height: 200px
+    height: 100px
 }
 
 .menutop {
@@ -191,12 +191,39 @@ header {
 
 main {
     font-family: 'Sen', sans-serif;
+    margin: auto;
+}
+
+.article2a,
+.article4,
+.article5 {
     width: 80%;
     margin: auto;
+
 }
 
 hr {
     margin: 5%;
+}
+
+/*-------------intro----------*/
+.section-a {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sen', sans-serif;
+    width: 100%;
+}
+
+.intro h1 {
+    margin: 0 5% 0;
+    font-size: 45px;
+}
+
+.article1a p {
+    font-size: 18px;
+    color: #5c5b5b;
+    margin: 30px 5% 20px;
 }
 
 .section-maps {
@@ -208,7 +235,8 @@ hr {
     align-items: center;
 }
 
-.bloc-texte h1, .article5 h1 {
+.bloc-texte h1,
+.article5 h1 {
     font-size: 22px;
     font-weight: 400;
     color: rgb(36, 35, 35);
@@ -219,10 +247,6 @@ p {
     color: #5c5b5b;
     margin: 0;
     padding: 0;
-}
-
-.article1a p{
-  font-size: 16px;  
 }
 
 .p1 {

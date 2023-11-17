@@ -86,7 +86,7 @@ header {
 
 .article2 {
     background-color: white;
-    height: 200px
+    height: 100px
 }
 
 .menu {
@@ -212,6 +212,13 @@ h1 {
 
 .section0 {
     margin: 0 5% 0;
+}
+.section0 p {
+    font-size: 18px;
+}
+
+.section0 h1 {
+    margin: 0 0 30px;
 }
 
 .section1 {
