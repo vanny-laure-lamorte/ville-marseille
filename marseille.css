@@ -197,12 +197,14 @@ body {
 /*----------FOOTER----------*/
 
 footer hr {
-    margin: 3%;
+    margin: 4%;
+    height: 100px;
 }
 
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #003b95;
     height: 250px;
 }
