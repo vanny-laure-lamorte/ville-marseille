@@ -3,7 +3,6 @@
 body {
     font-family: 'Sen', sans-serif;
     margin: 0;
-
 }
 
 header {
@@ -220,7 +219,6 @@ h1 {
     margin: 0 5% 20px;
 }
 
-
 .article-b {
     display: flex;
     flex-direction: column;
@@ -230,6 +228,7 @@ h1 {
 .section {   
     display: flex;
     border: 1px solid grey;
+    box-shadow: 10px 5px 5px rgb(197, 197, 197);
     margin: 10px 0;
     border-radius: 10px;
 }
