@@ -245,6 +245,7 @@ h1 {
 .img{
     border-radius: 10%;
     padding: 0px;
+    box-shadow: 10px 5px 5px rgb(197, 197, 197);
 }
 
 .étoile {
@@ -253,26 +254,30 @@ h1 {
     box-shadow: 0 0 16px rgba(0,0,0,0.1);
 }
 
+/* hr */
+.section-hr {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bouton-plages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    text-align: center;
+    background-color: #FFB700;
+    color:#003b95;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.bouton-plages:hover {
+    background-color: #003b95;
+    color: #FFB700;
+    transition: 0.3s ease;
+}
+
 /* Responsive */
-
-/* Styles pour les écrans larges */
-@media only screen and (min-width: 1200px) {
-    .contenu {
-        width: 80%;
-        margin: 0 auto;
-    } 
-}
-/* Styles pour les tablettes */
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-    .contenu {
-        width: 90%;
-    }
-    
-}
-
-/* Styles pour les smartphones */
-@media only screen and (max-width: 767px) {
-    .contenu {
-        width: 100%;
-    }
-}
