@@ -298,8 +298,7 @@ textarea {
     margin-left: 62%;
     margin-bottom: 5%;
     background-color: white;
-    font-family: 'Sen', sans-serif;
-    ;
+    font-family: 'Sen', sans-serif;    
 
 }
 
@@ -313,8 +312,7 @@ textarea {
 }
 
 .section2 {
-    height: 240px;
-
+    margin-bottom: 7%;
 }
 
 /* Footer */
