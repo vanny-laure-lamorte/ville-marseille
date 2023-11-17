@@ -208,8 +208,9 @@ hr {
     align-items: center;
 }
 
-h1 {
-    font-size: 15px;
+.bloc-texte h1, .article5 h1 {
+    font-size: 22px;
+    font-weight: 400;
     color: rgb(36, 35, 35);
 }
 
@@ -275,12 +276,6 @@ p {
 }
 
 /*---Troisième bloc---*/
-
-h1 {
-    font-size: 22px;
-    font-weight: 400;
-    color: rgb(36, 35, 35);
-}
 
 img {
     max-width: 100%;
