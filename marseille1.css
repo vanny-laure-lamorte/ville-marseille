@@ -284,12 +284,13 @@ h2 {
 
 .content p {
     display: flex;
-    font-size: 23px;
+    font-size: 20px;
     flex: 1;
     padding: 0 10% 0;
     align-items: center;
     font-family: 'Sen', sans-serif;
     color: #5c5b5b;
+    line-height: 30px;
 }
 
 /*menu lateral*/
@@ -430,6 +431,7 @@ footer {
 
     .content p {
         font-size: 17px;
+        line-height: initial;
     }
 
     .content h2 {
