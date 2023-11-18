@@ -177,18 +177,15 @@ header {
 }
 /*------------------MAIN------------------*/
 
-main {
-    display: flex;
-    flex-direction: column;
-}
+/*---Intro---*/
 
 .plageh1 {
     margin: 0 5% 0;
 }
+
 h1 {
     margin: 0;
-    font-size: 45px;
-    
+    font-size: 45px;    
 }
 
 .plageintro {
@@ -197,30 +194,54 @@ h1 {
     margin: 0 5% 20px;
 }
 
-.plage-b {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
+/*---Bloc: image, description---*/
+
+main{
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+    color: rgb(36, 35, 35);
 }
 
-.bloc1 {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
+h2 {   
+    font-size: 22px;
+}
+    
+p{
+    font-size: 15px; 
+    color: #5c5b5b;
 }
 
-.bloc2a {
+.article4 {
     display: flex;
-    align-items: baseline;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+
+.img-plage {
+    display: flex;
+    justify-content: center;
 }
 
 .contenu {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    height: 100vh;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 30%;
+    height: auto;
+    border: 1px solid #333;
+    box-shadow: 10px 5px 5px rgb(197, 197, 197);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.img{
+    width: 60%;
+    height: auto;
+    border-radius: 10%;
+    padding: 0px;
 }
 
 .link-position {
@@ -229,48 +250,23 @@ h1 {
     color:#FFB700;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 0 16px rgba(0,0,0,0.1)
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: flex-end;    
 }
 
 .link-position:hover{
     background-color: #FFB700;
     color: #003b95;
     transition: 0.3s ease;
-  }
+}
 
-/* section image */
-
-.img{
-    border-radius: 10%;
-    padding: 0px;
+.bouton1 {
+    margin-bottom: 5px;
 }
 
 .étoile {
     width: 15px;
     height: 15px;
     box-shadow: 0 0 16px rgba(0,0,0,0.1);
-}
-
-/* Responsive */
-
-/* Styles pour les écrans larges */
-@media only screen and (min-width: 1200px) {
-    .contenu {
-        width: 80%;
-        margin: 0 auto;
-    } 
-}
-/* Styles pour les tablettes */
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-    .contenu {
-        width: 90%;
-    }
-    
-}
-
-/* Styles pour les smartphones */
-@media only screen and (max-width: 767px) {
-    .contenu {
-        width: 100%;
-    }
 }
