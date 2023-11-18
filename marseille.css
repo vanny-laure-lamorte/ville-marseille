@@ -12,17 +12,19 @@ header {
     color: white;
     height: 120px;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .section-nav1 {
     display: flex;
-    align-items: center
+    align-items: center;
+    width: 33%;
+    justify-content: space-between;
 }
 
 .section-nav1 h1 {
     letter-spacing: 3px;
     font-size: 25px;
-    margin-left: 50px;
 }
 
 .section-nav1 img {
@@ -30,6 +32,7 @@ header {
     border-radius: 50%;
     height: 100px;
     width: 100px;
+    margin-left: 5px;
 }
 
 .nav-ul1 {
@@ -62,6 +65,10 @@ header {
 .nav-ul2 {
     display: flex;
     list-style: none;
+}
+
+header ul {
+    align-items: center;
 }
 
 .nav-img-question {
@@ -275,7 +282,7 @@ footer {
 
 /*---header---*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 870px) {
 
     .normal-btn img,
     .dropbtn img,
@@ -296,11 +303,41 @@ footer {
         font-size: 11px
     }
 
+    .article1 {
+        height: 150px;
+        justify-content: center;
+    }
+
     .article2 {
         height: 100px
     }
 
     .footer-section-carte {
         display: none
+    }
+
+    .section-nav1 {
+        width: initial;
+
+    }
+
+    .section-nav1 img {
+        width: auto;
+        height: 50px;
+        margin-right: 5px
+    }
+    .section-nav1 h1 {
+        margin: 0
+    }
+
+    .nav-li1 {
+        margin: 1px;
+    }
+    .nav-liens {
+        padding: 5px
+    }
+    header ul {
+        margin: 15px 0 0
+
     }
 }
