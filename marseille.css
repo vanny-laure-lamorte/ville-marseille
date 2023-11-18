@@ -311,8 +311,21 @@ footer {
 
 /*----------footer-----------*/
 
+    footer {
+        flex-direction: column;
+    }
+
+    footer hr {
+        visibility: hidden;
+        height: 0;
+    }
+
     .footer-section-carte {
         display: none
+    }
+
+    .footer-section {
+        flex-direction: row;
     }
 
     .section-nav1 {
@@ -335,4 +348,5 @@ footer {
     .nav-liens {
         padding: 5px
     }
+
 }
