@@ -71,21 +71,34 @@ main {
 /* ----------Section1: tableau----------*/
 
 table {
-    border-collapse: collapse;
     font-size: 12px;
-    margin: 20px 0;
+    margin: 20px auto;
+    border-spacing: 0;
+    border-radius: 10px;
 }
 
 td,
 th {
-    border: 1px solid grey;
     padding: 2px;
     font-family: 'Sen', sans-serif;
+    border: 1px solid grey;
+}
+
+table  tr:first-child th {
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+table tr:last-child td {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
 }
 
 th {
     background: grey;
     font-weight: 800;
+    text-align: start;
 }
 
 .titre-tableau {
@@ -147,7 +160,7 @@ th {
 
 /* ----------Section1: Actualités----------*/
 
-.bouton-lire {   
+.bouton-lire {
     background-color: #003b95;
     padding: 8px;
     border-radius: 10px;
