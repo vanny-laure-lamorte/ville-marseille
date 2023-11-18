@@ -276,7 +276,7 @@ footer {
 
 /*-------MEDIA QUERIES---------*/
 
-/*---header---*/
+/*---HEADER---*/
 
 @media screen and (max-width: 870px) {
 
@@ -309,7 +309,7 @@ footer {
         height: 100px
     }
 
-/*----------footer-----------*/
+/*----------FOOTER-----------*/
 
     footer {
         flex-direction: column;
