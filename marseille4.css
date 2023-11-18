@@ -267,7 +267,35 @@ img {
 }
 
 iframe {
-    width: 100%;
     width: 640px;
     height: 480px;
 }
+
+/*---MEDIA QUERIES---*/
+
+@media screen and (max-width: 870px)  {
+ 
+    .bloc-image-texte {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        border-radius: 10px;
+        padding: 10px;
+    }  
+    
+    .bloc-image {
+        width: 100%;
+        height: auto;
+    }
+
+    iframe {
+        width: 190%;
+        height: auto;        
+    }
+}
+ca marche mais si i
+ nu iom eiovne nioseb a y 
+
+tu voulais dire quoi la ???
+/*---VL c'est tout petit---*/
+
