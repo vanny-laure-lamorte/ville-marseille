@@ -120,7 +120,7 @@ h2 {
     height: 50px;
     padding: 2px;
     margin: 2px;
-    border: 2px solid orange;
+    border: 2px solid #FFB700;
     border-radius: 10px;
 }
 
@@ -141,3 +141,6 @@ h2 {
     left: 0;
     opacity: 1;
 }
+
+/*-------media queries-----*/
+
