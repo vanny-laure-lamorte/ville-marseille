@@ -321,11 +321,12 @@ footer {
         height: 0;
         width: 70%;
     }
-    footer hr:first-of-type {
+    footer hr:first-of-type,
+    footer hr:last-of-type {
         visibility: hidden;
     }
 
-    .footer-section-carte {
+    footer img {
         display: none
     }
 
@@ -360,9 +361,5 @@ footer {
 
     .nav-liens {
         padding: 5px
-    }
-
-    .li-logo {
-        display: inline-block;
     }
 }
