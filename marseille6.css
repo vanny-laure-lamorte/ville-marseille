@@ -19,7 +19,6 @@
     z-index: -2;
 }
 
-
 fieldset {
     border: 3px solid #ffb700;
     text-align: cover;
@@ -80,9 +79,7 @@ textarea {
 
 .conditions {
     font-size: 14px;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 1%;
+    margin: 1% 25% 2% 25%;
 }
 
 .envoyer {
@@ -90,19 +87,13 @@ textarea {
     font-size: 13px;
     font-weight: 600;
     border: solid 2px #ffb700;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-right: 1%;
-    padding-left: 1%;
+    padding: 1%;
     width: 15%;
     height: 7%;
     text-align: center;
-    margin-top: 2%;
-    margin-left: 62%;
-    margin-bottom: 5%;
+    margin: 2% 62% 5% 75%;
     background-color: white;
-    font-family: 'Sen', sans-serif;    
-
+    font-family:'Sen', sans-serif;    
 }
 
 .envoyer:hover {
@@ -116,4 +107,10 @@ textarea {
 
 .section2 {
     margin-bottom: 7%;
+}
+
+@media screen and (max-width: 870px) {
+    .envoyer {
+        font-size: 8px;
+    }
 }
