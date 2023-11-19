@@ -292,5 +292,13 @@ iframe {
         width: 190%;
         height: auto;        
     }
+
+    .bloc-texte {
+        width: 100%;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
 }
 
