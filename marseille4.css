@@ -289,8 +289,16 @@ iframe {
     }
 
     iframe {
-        width: 190%;
-        height: auto;        
+        width: 220%;
+        height: 180px;        
+    }
+
+    .bloc-texte {
+        width: 100%;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
     }
 }
 
