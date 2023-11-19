@@ -1,4 +1,4 @@
-/*-----------main------------*/
+/*-----------MAIN------------*/
 
 .section1 {
     position: relative;
@@ -108,6 +108,8 @@ textarea {
 .section2 {
     margin-bottom: 7%;
 }
+
+/*-----------MEDIA QUERIES------------*/
 
 @media screen and (max-width: 870px) {
     .envoyer {
