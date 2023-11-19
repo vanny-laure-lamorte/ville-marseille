@@ -115,14 +115,11 @@ th {
 /* ----------Section1: texte intro----------*/
 
 .article4 {
+    display: flex;
+    flex-direction: column;
     width: 70%;
     height: auto;
     margin-left: 40px;
-}
-
-.article4 {
-    display: flex;
-    flex-direction: column;
 }
 
 .p-text-intro {
@@ -175,3 +172,34 @@ th {
 .lien-actualité:hover {
     text-decoration: underline;
 }
+
+  /*----------MEDIA QUERIES-----------*/
+  
+@media screen and (max-width: 870px) {
+    main {
+    flex-direction: column-reverse;
+    }
+
+    .actu{ display: none;
+    }
+
+    .article3 {
+        width: initial;
+    }
+
+    .section1 {
+        margin-top: 40px;
+    }
+
+    .sous-section1 {
+        padding: 5px 1px;
+    }
+
+    .article4 {      
+        width: initial;
+        margin-left: 0px;
+    }
+}
+  
+
+
