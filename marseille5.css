@@ -88,3 +88,19 @@ p {
 .img-musée:hover {
     transform: scale(1.05);
 }
+
+/* ---MEDIA QUERIES---*/
+
+@media screen and (max-width: 870px) 
+{
+    .section-a {
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    .img-musée {
+        height: auto;
+        width: 100%
+    }
+}

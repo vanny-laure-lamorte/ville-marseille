@@ -120,10 +120,9 @@ h2 {
     height: 50px;
     padding: 2px;
     margin: 2px;
-    border: 2px solid orange;
+    border: 2px solid #FFB700;
     border-radius: 10px;
 }
-
 
 .hover-text {
     position: absolute;
@@ -141,4 +140,58 @@ h2 {
 .vertical-menu a:hover .hover-text {
     left: 0;
     opacity: 1;
+}
+
+/*-------media queries-----*/
+
+@media screen and (max-width: 870px) {
+
+    .histoire {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 5px 50px;
+        border: 1px solid;
+
+    }
+
+    .content p {
+        font-size: 17px;
+    }
+
+    .content h2 {
+        font-size: 30px
+    }
+
+    .histoire-img {
+        width: 85%;
+        margin: 30px 0 30px;
+    }
+
+    .content {
+        width: 75%;
+        padding: 25px
+    }
+
+    .histoire-img img {
+        height: 80px;
+    }
+
+    .vertical-menu {
+        flex-direction: row;
+        width: 70%;
+        justify-content: space-around;
+        margin: 30px 0 30px
+    }
+
+    .image-droite,
+    .image-gauche {
+        justify-content: center;
+        position: initial;
+        margin: 0;
+    }
+
+    .hover-text {
+display: none;
+}
+
 }

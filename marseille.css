@@ -10,21 +10,21 @@ header {
     display: flex;
     justify-content: space-between;
     color: white;
-    height: 120px;
+    height: 145px;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .section-nav1 {
     display: flex;
-    align-items: center;
-    width: 33%;
-    justify-content: space-between;
+    width: 50%;
+    margin: 5px 5px 0;
 }
 
 .section-nav1 h1 {
     letter-spacing: 3px;
     font-size: 25px;
+    align-self: center;
+    margin-left: 50px;
 }
 
 .section-nav1 img {
@@ -39,6 +39,7 @@ header {
     display: flex;
     list-style: none;
     padding-left: 0;
+
 }
 
 .nav-li1 {
@@ -112,7 +113,7 @@ body {
     text-align: center;
     text-decoration: none;
     justify-content: center;
-    border: 3px solid orange;
+    border: 3px solid rgb(255, 183, 0);
     background-color: white;
     padding: 10px;
     color: black;
@@ -202,21 +203,20 @@ body {
 /*----------FOOTER----------*/
 
 footer hr {
-    margin: 4%;
-    height: 100px;
+    height: 80px;
 }
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #003b95;
-    height: 250px;
 }
 
 .footer-ul {
     list-style: none;
     color: white;
+    padding: 0 5px 0;
 }
 
 .footer-section {
@@ -270,17 +270,13 @@ footer {
     object-fit: contain;
 }
 
-.logo-marseille {
-    margin-right: 50px;
-}
-
 .footer-img-log1 {
     width: 70px;
 }
 
 /*-------MEDIA QUERIES---------*/
 
-/*---header---*/
+/*---HEADER---*/
 
 @media screen and (max-width: 870px) {
 
@@ -305,20 +301,41 @@ footer {
 
     .article1 {
         height: 150px;
-        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .article2 {
         height: 100px
     }
 
+    /*----------FOOTER-----------*/
+
+    footer {
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    footer hr {
+        height: 0;
+        width: 70%;
+    }
+    footer hr:first-of-type {
+        visibility: hidden;
+    }
+
     .footer-section-carte {
         display: none
     }
 
+    .footer-section {
+        flex-direction: row;
+    }
+
     .section-nav1 {
         width: initial;
-
+        margin: 0 5px 0 0;
     }
 
     .section-nav1 img {
@@ -326,18 +343,25 @@ footer {
         height: 50px;
         margin-right: 5px
     }
+
     .section-nav1 h1 {
         letter-spacing: normal;
+    }
+
+    .footer-ul {
+        text-align: center;
+        margin: 0 0 20px
     }
 
     .nav-li1 {
         margin: 1px;
     }
+
     .nav-liens {
         padding: 5px
     }
-    header ul {
-        margin: 15px 0 0
 
+    .li-logo {
+        display: inline-block;
     }
 }

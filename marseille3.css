@@ -8,7 +8,7 @@
 
 h1 {
     margin: 0;
-    font-size: 45px;    
+    font-size: 45px;
 }
 
 .plageintro {
@@ -19,18 +19,18 @@ h1 {
 
 /*---Bloc: image, description---*/
 
-main{
+main {
     font-family: 'Sen', sans-serif;
     font-weight: 400;
     color: rgb(36, 35, 35);
 }
 
-h2 {   
+h2 {
     font-size: 22px;
 }
-    
-p{
-    font-size: 15px; 
+
+p {
+    font-size: 15px;
     color: #5c5b5b;
 }
 
@@ -61,7 +61,7 @@ p{
     margin: 10px;
 }
 
-.img{
+.img {
     width: 60%;
     height: auto;
     border-radius: 10%;
@@ -71,15 +71,15 @@ p{
 .link-position {
     text-decoration: none;
     background-color: #003b95;
-    color:#FFB700;
+    color: #FFB700;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
     display: flex;
-    align-items: flex-end;    
+    align-items: flex-end;
 }
 
-.link-position:hover{
+.link-position:hover {
     background-color: #FFB700;
     color: #003b95;
     transition: 0.3s ease;
@@ -92,5 +92,19 @@ p{
 .étoile {
     width: 15px;
     height: 15px;
-    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+/* ---MEDIA QUERIES---*/
+
+@media screen and (max-width: 870px) {
+
+    .article4 {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .contenu {
+        width: initial;
+    }
 }
