@@ -350,7 +350,7 @@ footer {
 
     .footer-ul {
         text-align: center;
-        margin: 0
+        margin: 0 0 20px
     }
 
     .nav-li1 {
@@ -363,6 +363,5 @@ footer {
 
     .li-logo {
         display: inline-block;
-
     }
 }
