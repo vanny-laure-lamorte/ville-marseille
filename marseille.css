@@ -336,11 +336,12 @@ footer {
     .section-nav1 {
         width: initial;
         margin: 0 5px 0 0;
+        align-items: center
     }
 
     .section-nav1 img {
         width: auto;
-        height: 50px;
+        height: 55px;
         margin-right: 5px
     }
 
