@@ -309,15 +309,20 @@ footer {
         height: 100px
     }
 
-/*----------FOOTER-----------*/
+    /*----------FOOTER-----------*/
 
     footer {
         flex-direction: column;
+        margin: 0;
+
     }
 
     footer hr {
-        visibility: hidden;
         height: 0;
+        width: 70%;
+    }
+    footer hr:first-of-type {
+        visibility: hidden;
     }
 
     .footer-section-carte {
@@ -338,15 +343,26 @@ footer {
         height: 50px;
         margin-right: 5px
     }
+
     .section-nav1 h1 {
+        margin: 0
+    }
+
+    .footer-ul {
+        text-align: center;
         margin: 0
     }
 
     .nav-li1 {
         margin: 1px;
     }
+
     .nav-liens {
         padding: 5px
     }
 
+    .li-logo {
+        display: inline-block;
+
+    }
 }
